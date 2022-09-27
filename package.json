@@ -1,0 +1,17 @@
+{
+  "name": "cypress_sauce_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress open": "npx cypress open",
+    "cypress run": "npx cypress run --headless --browser chrome",
+    "lint": "tsc --noEmit --pretty"
+  },
+  "author": "Krzysztof Stachowiak",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "typescript": "^4.8.3"
+  }
+}
